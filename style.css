@@ -1,0 +1,33 @@
+body {
+	  text-align: center;
+	  background-color: pink;
+    
+	}
+
+	div {
+	  margin-top: 15px;
+	}
+
+	.iframe-div {
+	  display: flex;
+	  justify-content: center;
+    
+	}
+.iframe-content{
+    margin-right: 25px;
+	  margin-left: 25px;
+  border-style:solid;
+  background-color:orange;
+ transition: transform 1s;
+   opacity:0.5;
+}
+.iframe-content:hover {
+  transform: scale(1.2);
+   opacity:1;
+ 
+}
+
+#gallery{
+  height:30px;
+  width:150px
+}
